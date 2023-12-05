@@ -151,9 +151,35 @@ body.nav-active{ overflow: hidden;}
 
 
 .header .btn {
-    display: none;
+    color: white;
+    display: grid;
 
 }
+
+.header .btn{
+    display: grid;
+    margin-inline: auto 30px;
+
+}
+
+.btn-secondary{
+   color: var(--text-white);
+   height: 53px;
+   border: 2px solid var(--border-blue-jeans);
+}
+
+.btn-secondary:is(:hover, :focus-visible){
+    background-color: var(--border-blue-jeans);
+}
+
+
+ 
+.btn-secondary{
+    color: var(--text-white);
+   height: 53px;
+   border: 2px solid var(--border-blue-jeans);
+}
+
 
 .header{
     position: absolute;
